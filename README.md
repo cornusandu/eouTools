@@ -17,3 +17,13 @@ Documentation: "Returns whether `n` is negative or not"
 Syntax: `isZero(n: int | float) -> bool`<br>
 Alternative: `n == 0`<br>
 Documentation: "Returns whether `n` is zero or not"
+
+## eouTools.decorators
+### rename_on_init
+Syntax: `@rename_on_init(name: str)`<br>
+Documentation: "Rename a function when it is initialized. This may raise unexpected behavior, however"
+
+## eouTools.benchmarking.decorators
+### time_func
+Syntax: `@time_func`<br>
+Documentation: "Time a function. Parse in the keyworded argument `_no_time = True` to get the return instead of the time it took to execute"
