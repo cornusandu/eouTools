@@ -19,6 +19,7 @@ class MemoizedFunction:
         return getattr(self.func, name)
 
 def memoize(func: Callable) -> MemoizedFunction:
+    """Create a cache of all results given by a function. run the `.delete_cache()` function to delete the cache. Can be used to speed up certain algorithms such as recursive Fibonacci sequence"""
     memoized_function = MemoizedFunction(func)
     return memoized_function
 
