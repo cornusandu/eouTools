@@ -37,7 +37,7 @@ def cache(func: Callable) -> Callable:
     @wraps(func)
     def wrapper(*args, **kwargs) -> Any:
         key = str(args) + str(kwargs)
-        if not cache.get(key, None):
+        if not _cache.get(key, None):
             _cache[key] = func(*args, **kwargs)
 
         return _cache[key]
