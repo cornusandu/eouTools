@@ -44,6 +44,12 @@ Syntax: `factorial(n: int) -> int`<br>
 Documentation: "Calculate the factorial of a number"<br>
 Requirements: `numpy`
 
+## eouTools.arithmetic_equations.integrals
+### integrate
+Syntax: `integrate(func: Callable, start: Optional[int | float], end: Optional[int | float], dx: Optional[int | float]) -> float`<br>
+Documentation: [Self-Explanatory]<br>
+Used Builtins: `multiprocessing`
+
 ### fib
 Syntax: `fib(n: int) -> int`<br>
 Documentation: `Calculate the fibonacci sequence for a number recursively`<br>
