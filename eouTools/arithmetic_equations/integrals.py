@@ -31,8 +31,7 @@ def integrate(func: Callable, start: Optional[int | float] = 0, end: Optional[in
     n = int((end - start) / dx)
     if n % 2 == 1:  # Ensure n is even
         n += 1
-
-    dx = (end - start) / n
+        dx = (end - start) / n
     num_processes = mp.cpu_count()
     segment_size = (end - start) / num_processes
     segment_n = n // num_processes
