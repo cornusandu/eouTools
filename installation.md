@@ -6,6 +6,7 @@ Make sure you meet the following requirements:
 - pip >= 20.3.1 (suggested?)
 - numpy<=1.26.4 (suggested?)
 - numpy (suggested)
+- Deprecated (required)
 
 ## 2 - Requirements Installation
 How to install certain requirements if your system does not already meet them
@@ -22,6 +23,11 @@ python -m pip install --upgrade numpy<=1.26.4
 ### numpy
 ```commandline
 python -m pip install --upgrade numpy
+```
+
+## Deprecated
+```commandline
+python -m pip install --upgrade Deprecated
 ```
 
 ## 3 - Installation

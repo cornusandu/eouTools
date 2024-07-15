@@ -3,6 +3,7 @@
 - python >= 3.10 (Required)
 - python >= 3.12 (Suggested)
 - numpy (Suggested)
+- Deprecated (Required)
 ## eouTools.numbers
 ### isPositive
 Syntax: isPositive(n: int | float) -> bool<br>
@@ -24,9 +25,13 @@ Documentation: "Returns whether `n` is zero or not"
 Syntax: `@rename_on_init(name: str)`<br>
 Documentation: "Rename a function when it is initialized. This may raise unexpected behavior, however"
 
-### memoize
-Syntax: `@memoize`<br>
-Documentation: "Create a cache of all results given by a function. run the `.delete_cache()` function to delete the cache. Can be used to speed up certain algorithms such as recursive Fibonacci sequence"
+### retry
+Syntax: `@retry(amount: Optional[int], stop_at: Optional[Tuple[Exception]])`<br>
+Documentation: "Try calling the functon `amount` amount of times, but stop if the exception raised is in `stop_at` or if the function did not raise an error"
+
+### cache
+Syntax: `@cache`<br>
+Documentation: "Create a cache of all results given by a function. run the `.clear_cache()` function to delete the cache. Can be used to speed up certain algorithms such as recursive Fibonacci sequence"
 
 ## eouTools.benchmarking.decorators
 ### time_func
