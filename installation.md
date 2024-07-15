@@ -4,12 +4,24 @@ Make sure you meet the following requirements:
 - python >= 3.10 (required)
 - python >= 3.12 (suggested)
 - pip >= 20.3.1 (suggested?)
+- numpy<=1.26.4 (suggested?)
+- numpy (suggested)
 
 ## 2 - Requirements Installation
 How to install certain requirements if your system does not already meet them
 ### pip >= 20.3.1
 ```commandline
 python -m pip install --upgrade pip>=20.3.1
+```
+
+### numpy<=1.26.4
+```commandline
+python -m pip install --upgrade numpy<=1.26.4
+```
+
+### numpy
+```commandline
+python -m pip install --upgrade numpy
 ```
 
 ## 3 - Installation

@@ -2,6 +2,7 @@
 ## Requirements
 - python >= 3.10 (Required)
 - python >= 3.12 (Suggested)
+- numpy (Suggested)
 ## eouTools.numbers
 ### isPositive
 Syntax: isPositive(n: int | float) -> bool<br>
@@ -31,3 +32,15 @@ Documentation: "Create a cache of all results given by a function. run the `.del
 ### time_func
 Syntax: `@time_func`<br>
 Documentation: "Time a function. Parse in the keyworded argument `_no_time = True` to get the return instead of the time it took to execute"
+
+## eouTools.arithmetic_equations.integers
+### factorial
+Syntax: `factorial(n: int) -> int`<br>
+Documentation: "Calculate the factorial of a number"<br>
+Requirements: `numpy`
+
+### fib
+Syntax: `fib(n: int) -> int`<br>
+Documentation: `Calculate the fibonacci sequence for a number recursively`<br>
+Requirements:
+- numpy (suggested)
