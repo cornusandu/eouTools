@@ -13,7 +13,7 @@ elif sys.argv[1] == '--install-requirements':
     choice = input("(y/n) ")
     if choice[0].lower() != 'y':
         sys.exit(0)
-    os.system("python -m pip --upgrade install numpy<=1.26.4 Deprecated")
+    os.system("python -m pip install --upgrade numpy<=1.26.4 Deprecated")
 elif sys.argv[1] == '--upgrade':
     print("This operation will require re-installation of eouTools. Are you sure you wish to proceed?")
     choice = input("(y/n) ")
