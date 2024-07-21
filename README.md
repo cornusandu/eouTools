@@ -56,6 +56,20 @@ Documentation: `Calculate the fibonacci sequence for a number recursively`<br>
 Requirements:
 - numpy (suggested)
 
+## eouTools.rng.random
+### seed
+Syntax: `seed(a: Optional[int | float | bytes | bytearray)`
+Documentation: `To be used as a context manager`
+Requirements:
+- numpy (suggested)
+
+### aseed
+Syntax: `aseed(a: Optional[int | float | bytes | bytearray)`
+Documentation: `To be used as an asynchronous context manager`
+###### _69 lines, nice!_
+Requirements:
+- numpy (suggested)
+
 ## Commandline
 ### Commands
 - `-V`: Show the installation version
@@ -66,4 +80,3 @@ Requirements:
 ```commandline
 python -m eouTools <command>
 ```
-###### _69 lines, nice!_
