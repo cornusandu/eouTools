@@ -55,3 +55,15 @@ Syntax: `fib(n: int) -> int`<br>
 Documentation: `Calculate the fibonacci sequence for a number recursively`<br>
 Requirements:
 - numpy (suggested)
+
+## Commandline
+### Commands
+- `-V`: Show the installation version
+- `--install-requirements`: Install all requirements
+- `--upgrade`: Update to the newest version of eouTools
+
+### Usage
+```commandline
+python -m eouTools <command>
+```
+###### _69 lines, nice!_
