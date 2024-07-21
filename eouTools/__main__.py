@@ -2,11 +2,11 @@ import sys
 import os
 
 details = {
-    'version': '0.0.8'
+    'version': '0.0.8.2'
 }
 
 if sys.argv[1] == '-V':
-    print("You currently have eouTools version 0.0.8")
+    print(f"You currently have eouTools version {details['version']}")
     sys.exit(0)
 elif sys.argv[1] == '--install-requirements':
     print("This operation will install all requirements. Are you sure you wish to proceed?")
