@@ -2,7 +2,7 @@ import sys
 import os
 
 details = {
-    'version': '0.0.8.2'
+    'version': '0.0.9'
 }
 
 if sys.argv[1] == '-V':
