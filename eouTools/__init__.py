@@ -15,3 +15,6 @@ from .rng.random import *
 
 from .morebytes import *
 from .morebytes.encryption import *
+
+from . import constants
+from .constants import Constant

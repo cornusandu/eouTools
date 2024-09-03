@@ -70,6 +70,11 @@ Documentation: `To be used as an asynchronous context manager`
 Requirements:
 - numpy (suggested)
 
+## eouTools.constants
+### Constant
+Syntax: `Constant(value: Any)`
+Documentation: `A constant, read-only value.`
+
 ## Commandline
 ### Commands
 - `-V`: Show the installation version
