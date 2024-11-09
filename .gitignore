@@ -1,0 +1,14 @@
+./idea/
+./idea/*
+./buildCode.ps1
+./installation.md
+./main.py
+./publishPackage.ps1
+./publishPackageToPyPi.ps1
+./pyproject.toml
+./setup.cfg
+./tests.py
+./src/
+./src/*
+./dist/
+./dist/*
