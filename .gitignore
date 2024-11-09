@@ -1,5 +1,5 @@
-./idea/
-./idea/*
+./.idea/
+./.idea/*
 ./buildCode.ps1
 ./installation.md
 ./main.py
